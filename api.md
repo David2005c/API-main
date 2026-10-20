@@ -20,9 +20,20 @@ He usado _**Render**_ para desplegar la API
 
 ![alt image](images/tree.png)
 
+## Backend : app.py
+```
+
+```
+
+## Enlace a static
+
+```
+<script src="/static/app.js" defer></script>
+```
+
 ### Paso 1: Conectar Github a Render
 
-Primero inicimos sesión en Render y nos saldrá una pestaña en la que te va a pedir conectar Github (puedes usar Github o cualquira de las opciones que te ofrece Render) para obtener los atrchivos necesarios para desplegar la API, para ello lickamos en el icono de Github y una vez dentro se te envirá por un correo para verificar la conexión, lo introducimos y Render ya puede coger esos archivos.
+Primero iniciamos sesión en Render y nos saldrá una pestaña en la que te va a pedir conectar Github (puedes usar Github o cualquira de las opciones que te ofrece Render) para obtener los archivos necesarios para desplegar la API, para ello clickamos en el icono de Github y una vez dentro se te envirá por un correo para verificar la conexión, lo introducimos y Render ya puede coger esos archivos.
 
 ### Paso 2: Configurar Render
 
