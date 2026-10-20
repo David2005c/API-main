@@ -38,7 +38,7 @@ Primero iniciamos sesión en Render y nos saldrá una pestaña en la que te va a
 ### Paso 2: Configurar Render
 
 Una vez esté conectado Github deberemos de configurar ciertos aspectos* de Render para el despliegue.
-Hay que seleccionar el repositorio que se va a utilizar en _**Source**_  (usuario/API por ejemplo), en el apartado _**Build Command**_ deberemos de definir el comando para construir la API antes de lanzarla que será algo así  -**pip install -r requirements.txt**- (esto instala las dependencias necesarias), después en _**Start Comand**_ deberemos de definir el comando para arrancar la API y desplegarla, será algo así _**uvicorn app:app --host 0.0.0.0 --port $PORT**_ (susitituye app por el archivo python que tengas, si se llama apirest pues será  _**uvicorn apirest:app --host 0.0.0.0 --port $PORT**_).
+Hay que seleccionar el repositorio que se va a utilizar en _**Source**_  (usuario/API por ejemplo), en el apartado _**Build Command**_ deberemos de definir el comando para construir la API antes de lanzarla que será algo así  _**pip install -r requirements.txt**_ (esto instala las dependencias necesarias), después en _**Start Comand**_ deberemos de definir el comando para arrancar la API y desplegarla, será algo así _**uvicorn app:app --host 0.0.0.0 --port $PORT**_ (susitituye app por el archivo python que tengas, si se llama apirest pues será  _**uvicorn apirest:app --host 0.0.0.0 --port $PORT**_).
 
 _*Los aspectos mencionados son los más importantes para arrancar la API, lo demás es secundario (nombre de la api,...)_
 
